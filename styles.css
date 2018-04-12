@@ -45,6 +45,12 @@ a:hover {
     margin-right: auto;
     color: white;
 }
+.subName {
+  color: yellow;
+  font-weight:normal;
+
+}
+
 .nav li {
   padding: 5px 10px 10px 10px;
 }
@@ -52,12 +58,12 @@ a:hover {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: yellow;
 }
 
 header {
   text-align: center;
-  background: url('images/purpleSky.jpg') no-repeat top center ;
+  background: url('images/headerimg.png') no-repeat center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -70,12 +76,14 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 3px solid yellow ;
   transition: all .5s;
+
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
 }
+
 .tag {
   background-color: #efefef;
   color: black;
@@ -99,7 +107,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #0399ff;
 }
 
 ul.skills {

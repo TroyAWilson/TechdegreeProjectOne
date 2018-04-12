@@ -128,6 +128,43 @@ ul.skills {
   background: #0399ff;
 }
 
+#ExperienceBox {
+  margin: 5%;
+  padding: 20px 40px 40px;
+  max-width: 100%;
+  text-align: center;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+
+#ExperienceBox:hover{
+  border-color: #0399ff;
+}
+.Experience{
+  max-width: 340px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 1px 5px 5px lightgrey;
+  border-radius: 10px;
+}
+.Experience:hover{
+  transform: scale(1.3);
+  padding: 0;
+
+}
+
+.ExperienceText{
+  max-width: 350px;
+  padding: 0px;
+  margin: 10px;
+}
+
+.ExperienceLink:hover{
+  color:#0399ff;  
+}
+
 footer {
   width: 100%;
   min-height: 30px;

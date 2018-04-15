@@ -127,7 +127,10 @@ ul.skills {
 .skills li:nth-child(odd) {
   background: #0399ff;
 }
-
+.expContainer{
+  text-align: center;
+  float: left;
+}
 #ExperienceBox {
   margin: 5%;
   padding: 20px 40px 40px;
@@ -149,11 +152,11 @@ ul.skills {
   box-shadow: 1px 5px 5px lightgrey;
   border-radius: 10px;
 }
-.Experience:hover{
+/* .Experience:hover{
   transform: scale(1.3);
   padding: 0;
 
-}
+} */
 
 .ExperienceText{
   max-width: 350px;
@@ -208,9 +211,12 @@ a.github {
 a.social:hover {
   opacity: 1;
 }
-.clearfix {
-  clear: both;
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
